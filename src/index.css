@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* ----------------
+    RESET
+---------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------
+      GENERAL
+  ---------------- */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  background-color: #e5e5e5;
+}
+
+.accordion-card {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.accordion-card > * {
+  padding: 10px;
+  background-color: #fff;
+}
+.accordion-name {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffc008;
+}
+
+.accordion-name h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.accordion-name button {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  font-weight: 700;
+}
